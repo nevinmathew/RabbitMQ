@@ -11,24 +11,24 @@ It is cloud friendly, easy to containerise, and supports SASL, LDAP and TLS for 
 In this application, the message is sent to RabbitMQ, the direct exchange is used for publishing the message to RabbitMQ, and this RabbitMQ message is then consumed by the spring boot application.
 
 Setup:
-1.Download and install ERlang  http://erlang.org/download/
 
-2.Downlaod and install RabbitMQ  https://www.rabbitmq.com/install-windows.html#installer
+1. Download and install ERlang  http://erlang.org/download/
 
-3.Go to RabbitMQ Server install Directory C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin
+2. Downlaod and install RabbitMQ  https://www.rabbitmq.com/install-windows.html#installer
 
-4.Set the environment as the following: 
-ERLANG_HOME = C:\Program Files\Erlang OTP
-RABBITMQ_BASE = C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x
+3. Go to RabbitMQ Server install Directory C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin
 
-5.Run command rabbitmq-plugins enable rabbitmq_management
+4. Set the environment as the following: 
+  ERLANG_HOME = C:\Program Files\Erlang OTP
+  RABBITMQ_BASE = C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x
 
-6.Open browser and enter http://localhost:15672/ to redirect to RabbitMQ Dashboard
+5. Run command rabbitmq-plugins enable rabbitmq_management
 
-7.Login page default username and password is guest, guest
+6. Open browser and enter http://localhost:15672/ to redirect to RabbitMQ Dashboard
 
-8.After successfully login you should see RabbitMQ Home page
+7. Login page default username and password is guest, guest
 
+8. After successfully login you should see RabbitMQ Home page
 
 In case the rabbitmq server is not working, check the RabbitMQ/Erlang version compatibility:
 https://www.rabbitmq.com/which-erlang.html
