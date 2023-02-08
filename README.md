@@ -12,14 +12,21 @@ In this application, the message is sent to RabbitMQ, the direct exchange is use
 
 Setup:
 1.Download and install ERlang  http://erlang.org/download/
+
 2.Downlaod and install RabbitMQ  https://www.rabbitmq.com/install-windows.html#installer
+
 3.Go to RabbitMQ Server install Directory C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin
+
 4.Set the environment as the following: 
 ERLANG_HOME = C:\Program Files\Erlang OTP
 RABBITMQ_BASE = C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x
+
 5.Run command rabbitmq-plugins enable rabbitmq_management
+
 6.Open browser and enter http://localhost:15672/ to redirect to RabbitMQ Dashboard
+
 7.Login page default username and password is guest, guest
+
 8.After successfully login you should see RabbitMQ Home page
 
 
@@ -28,9 +35,12 @@ https://www.rabbitmq.com/which-erlang.html
 
 Open the command prompt and run the following commands one by one:
 
-cd c:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin
+● cd c:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin
 
-rabbitmq-service remove
-rabbitmq-service install
-rabbitmq-service start
-rabbitmq-server.bat start
+● rabbitmq-service remove
+
+● rabbitmq-service install
+
+● rabbitmq-service start
+
+● rabbitmq-server.bat start
