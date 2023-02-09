@@ -10,7 +10,7 @@ It is cloud friendly, easy to containerise, and supports SASL, LDAP and TLS for 
 
 In this application, the message is sent to RabbitMQ, the direct exchange is used for publishing the message to RabbitMQ, and this RabbitMQ message is then consumed by the spring boot application.
 
-Setup:
+## Setup:
 
 1. Download and install ERlang  http://erlang.org/download/
 
@@ -29,6 +29,8 @@ Setup:
 7. Login page default username and password is guest, guest
 
 8. After successfully login you should see RabbitMQ Home page
+
+## Troubleshooting:
 
 In case the rabbitmq server is not working, check the RabbitMQ/Erlang version compatibility:
 https://www.rabbitmq.com/which-erlang.html
