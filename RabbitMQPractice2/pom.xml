@@ -7,7 +7,7 @@
 		<version>2.7.0</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javainuse</groupId>
+	<groupId>com.java</groupId>
 	<artifactId>RabbitMQPractice2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RabbitMQPractice2</name>
