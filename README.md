@@ -12,11 +12,11 @@ In this application, the message is sent to RabbitMQ, the direct exchange is use
 
 ## Setup:
 
-1. Download and install ERlang  http://erlang.org/download/
+1. [Click here](http://erlang.org/download/) to download and install ERlang.
 
-2. Downlaod and install RabbitMQ  https://www.rabbitmq.com/install-windows.html#installer
+2. [Click here](https://www.rabbitmq.com/install-windows.html#installer) to downlaod and install RabbitMQ 
 
-3. Go to RabbitMQ Server install Directory C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin
+3. To go to RabbitMQ Server install Directory, [click here](C:\Program Files\RabbitMQ Server\rabbitmq_server-3.x.x\sbin)
 
 4. Set the environment as the following: 
   ERLANG_HOME = C:\Program Files\Erlang OTP
@@ -32,8 +32,7 @@ In this application, the message is sent to RabbitMQ, the direct exchange is use
 
 ## Troubleshooting:
 
-In case the rabbitmq server is not working, check the RabbitMQ/Erlang version compatibility:
-https://www.rabbitmq.com/which-erlang.html
+In case the rabbitmq server is not working, [click here](https://www.rabbitmq.com/which-erlang.html) to check the RabbitMQ/Erlang version compatibility.
 
 Open the command prompt and run the following commands one by one:
 
