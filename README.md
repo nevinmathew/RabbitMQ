@@ -1,12 +1,15 @@
 # RabbitMQ
 
-RabbitMQ is an implementation of the AMQP message model. With this type of message model, the producer, the service that produces the messages, instead of producing directly to a message queue, it's going to produce to an exchange. It's going to receive all the messages and then distribute them according to whom they're addressed to.
+## Overview
+This project is a simple demonstration of a Spring Boot application integrating with RabbitMQ, a widely used message broker implementing the Advanced Message Queuing Protocol (AMQP). RabbitMQ facilitates asynchronous communication between different components of a system, providing flexibility and scalability.
+
+With this type of message model, the producer, the service that produces the messages, instead of producing directly to a message queue, it's going to produce to an exchange. It's going to receive all the messages and then distribute them according to whom they're addressed to.
 
 There are several reasons why this message queue is so widely used:
-The flexibility with the way the messages move through the system.
-One advantage of this message model is the flexibility with which the messages can move through the system. And that flexibility is largely in part to the different types of exchanges available.
-This message broker, or message brokers in general, is also going to help with scalability.
-It is cloud friendly, easy to containerise, and supports SASL, LDAP and TLS for authentication and authorization.
+- The flexibility with the way the messages move through the system.
+- One advantage of this message model is the flexibility with which the messages can move through the system. And that flexibility is largely in part to the different types of exchanges available.
+- This message broker, or message brokers in general, is also going to help with scalability.
+- It is cloud friendly, easy to containerise, and supports SASL, LDAP and TLS for authentication and authorization.
 
 In this application, the message is sent to RabbitMQ, the direct exchange is used for publishing the message to RabbitMQ, and this RabbitMQ message is then consumed by the spring boot application.
 
